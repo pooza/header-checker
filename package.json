@@ -1,0 +1,22 @@
+{
+  "name": "header-checker",
+  "version": "1.0.0",
+  "description": "リクエストヘッダーの検査に使用。",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "lint": "npx eslint *.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "sass": "^1.54.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  }
+}
