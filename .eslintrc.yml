@@ -12,12 +12,6 @@ rules:
   comma-dangle:
     - error
     - only-multiline
-  no-console:
-    - error
-    - allow:
-        - error
-        - warn
-        - info
   no-unused-vars:
     - error
     - args: none

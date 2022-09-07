@@ -7,7 +7,6 @@ const fs = require('fs')
 
 const app = express()
 const listener = app.listen(3000, () => {
-  // eslint-disable-next-line no-console
   console.log(listener.address())
 })
 
@@ -20,7 +19,6 @@ const compileTemplate = (template, params) => {
 }
 
 const logRequest = request => {
-  // eslint-disable-next-line no-console
   console.log({
     method: request.method,
     path: request.path,
