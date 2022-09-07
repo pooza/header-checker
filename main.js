@@ -39,3 +39,8 @@ app.get('/style', (request, response) => {
   response.send(sass.compile(path.join(__dirname, 'styles/default.sass')).css)
 })
 
+app.get('/image', (request, response) => {
+  logRequest(request)
+  response.send(fs.readFileSync(path.join(__dirname, 'images/masu.jpg')))
+})
+
